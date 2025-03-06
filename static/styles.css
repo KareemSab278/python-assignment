@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #575757;
+    margin: 0;
+    padding: 20px;
+}
+
+.dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.user-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.user-box {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 15px;
+    width: 250px;
+    min-height: 150px;
+    transition: transform 0.2s;
+}
+
+.user-box:hover {
+    transform: translateY(-5px);
+}
+
+.user-box h3 {
+    margin: 0 0 10px 0;
+    color: #2c3e50;
+}
+
+.user-box p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.user-box button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.user-box button:hover {
+    background-color: #c0392b;
+}
+
+/* New styles for the form box */
+.form-box {
+    background-color: rgb(104, 143, 211);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 350px;  /* Slightly wider than user boxes */
+    margin: 0 auto 20px auto;  /* Center it and add bottom margin */
+}
+
+.form-box h2 {
+    margin: 0 0 15px 0;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.form-box label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-box input[type="submit"] {
+    background-color: #01426e;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form-box input[type="submit"]:hover {
+    background-color: #002238;
+}
